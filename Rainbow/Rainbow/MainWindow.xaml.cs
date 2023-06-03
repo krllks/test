@@ -260,7 +260,7 @@ namespace Rainbow
         private void Theme_MouseEnter(object sender, MouseEventArgs e)
         {
             light.Background = new SolidColorBrush(Color.FromArgb(255, 121, 113, 160));
-            dark.Background  = new SolidColorBrush(Color.FromArgb(255, 121, 113, 160));
+            dark.Background  = new SolidColorBrush(Color.FromArgb(255, 250, 255, 186));
         }
         private void Theme_MouseLeave(object sender, MouseEventArgs e)
         {

@@ -50,7 +50,8 @@
                              Style="{StaticResource ExitButtonTheme}">
                     <RadioButton.ToolTip>
                         <ToolTip>
-                            <TextBlock Text="Выход" FontSize="15"/>
+                            <TextBlock Text="Выход" FontSize="14"
+                                       FontFamily="/Assets/Fonts/#Comfortaa"/>
                         </ToolTip>
                     </RadioButton.ToolTip>
                 </RadioButton>
@@ -65,7 +66,7 @@
 
                     </Style>
                 </WrapPanel.Resources>
-                <!--46, 135, 255 || 91, 195, 255-->
+                
                 <WrapPanel Orientation="Horizontal">
                     <Button Width="50"
                             Height="50"
@@ -144,10 +145,11 @@
             </WrapPanel>
 
             <TextBlock Text="Каждый Охотник Желает Знать, Где Сидит Фазан"
+                       FontFamily="/Assets/Fonts/#Comfortaa"
                        VerticalAlignment="Bottom"
                        HorizontalAlignment="Center"
                        Margin="10" Name="text"
-                       FontSize="18"/>
+                       FontSize="17"/>
         </Grid>
     </Border>
     
