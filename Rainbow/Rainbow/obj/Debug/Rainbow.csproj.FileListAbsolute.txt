@@ -13,3 +13,5 @@ C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.csproj.
 C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.csproj.CoreCompileInputs.cache
 C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.exe
 C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.pdb
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\App.baml
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Assets\Themes\ButtonTheme.baml

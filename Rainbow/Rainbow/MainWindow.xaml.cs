@@ -4,6 +4,8 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
 
+
+
 namespace Rainbow
 {
     public partial class MainWindow : Window
@@ -18,14 +20,16 @@ namespace Rainbow
             new SolidColorBrush(Color.FromRgb(255, 170, 3)),
             new SolidColorBrush(Color.FromRgb(236, 255, 78)),
             new SolidColorBrush(Color.FromRgb(45, 255, 125)),
-            new SolidColorBrush(Color.FromRgb(46, 135, 255)),
             new SolidColorBrush(Color.FromRgb(91, 195, 255)),
+            new SolidColorBrush(Color.FromRgb(46, 135, 255)),
             new SolidColorBrush(Color.FromRgb(150, 45, 250)),
         };
 
         public MainWindow()
         {
             InitializeComponent();
+
+            MessageBox.Show("О, привет!\r\nВыбери цвета радуги в правильном порядке.", "", MessageBoxButton.OK, MessageBoxImage.Information);
             Main();
         }
 
@@ -37,8 +41,8 @@ namespace Rainbow
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Вы действительно " +
-                "хотите выйти из приложения?", "Подтверждение", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            MessageBoxResult result = MessageBox.Show("Вы действительно хотите выйти из приложения?",
+                                                      "Подтверждение", MessageBoxButton.YesNo, MessageBoxImage.Question);
             if (result == MessageBoxResult.Yes)
                 exit();
         }
@@ -47,13 +51,14 @@ namespace Rainbow
         {
             if (S == 7)
             {
-                MessageBox.Show("Raindow");
+                MessageBox.Show("R A I N B O W");
                 exit();
             }
         }
 
         private void exit()
         {
+            MessageBox.Show("See you later nerds.", "", MessageBoxButton.OK);
             Application.Current.Shutdown();
         }
 
@@ -229,18 +234,38 @@ namespace Rainbow
 
         private void dark_Click(object sender, RoutedEventArgs e)
         {
-            this.Background = new SolidColorBrush(Color.FromRgb(27, 25, 37));
-            this.Foreground = Brushes.White;
+            border.Background = new SolidColorBrush(Color.FromRgb(27, 25, 37));
+            text.Foreground = Brushes.White;
             dark.Visibility = Visibility.Hidden;
             light.Visibility = Visibility.Visible;
         }
 
         private void light_Click(object sender, RoutedEventArgs e)
         {
-            this.Background = Brushes.White;
-            this.Foreground = Brushes.Black;
+            border.Background = Brushes.White;
+            text.Foreground = Brushes.Black;
             light.Visibility = Visibility.Hidden;
             dark.Visibility = Visibility.Visible;
+        }
+
+        private void Exit_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Exit.Background = new SolidColorBrush(Color.FromRgb(255, 85, 85));
+        }
+        private void Exit_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Exit.Background = new SolidColorBrush(Color.FromArgb(0, 255, 71, 51));
+        }
+
+        private void Theme_MouseEnter(object sender, MouseEventArgs e)
+        {
+            light.Background = new SolidColorBrush(Color.FromArgb(255, 121, 113, 160));
+            dark.Background  = new SolidColorBrush(Color.FromArgb(255, 121, 113, 160));
+        }
+        private void Theme_MouseLeave(object sender, MouseEventArgs e)
+        {
+            light.Background = new SolidColorBrush(Color.FromArgb(0, 121, 113, 160));
+            dark.Background  = new SolidColorBrush(Color.FromArgb(0, 121, 113, 160));
         }
     }
 }
