@@ -1,0 +1,15 @@
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\bin\Debug\Rainbow.exe.config
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\bin\Debug\Rainbow.exe
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\bin\Debug\Rainbow.pdb
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.csproj.AssemblyReference.cache
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\MainWindow.g.cs
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\App.g.cs
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow_MarkupCompile.cache
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow_MarkupCompile.lref
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\MainWindow.baml
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.g.resources
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.Properties.Resources.resources
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.csproj.GenerateResource.cache
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.csproj.CoreCompileInputs.cache
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.exe
+C:\Users\ekate\source\repos\my project\Rainbow\Rainbow\obj\Debug\Rainbow.pdb
